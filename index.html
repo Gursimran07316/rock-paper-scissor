@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+
+
+  <style>
+    .attribution {
+      font-size: 1rem;
+      text-align: center;
+      margin: 2rem;
+      float: center;
+      color: white;
+      padding: 10px;
+    }
+
+    .attribution a {
+      color: white;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <header>
+      <div class="scorediv">
+        <div>
+          <img src="images/logo.svg" class="logo" alt="">
+        </div>
+        <div class="scoreCard">
+          <p>SCORE</p>
+          <h4 id="score">0</h4>
+        </div>
+      </div>
+    </header>
+    <section class="gameplay">
+      <div id="first">
+        <div class="flex-1">
+          <div class="paperDiv">
+            <img src="images/icon-paper.svg" class="img img-paper img-1" id="paper" alt="">
+          </div>
+          <div class="scissorDiv">
+            <img src="images/icon-scissor.svg" class="img img-scissor img-1" id="scissor" alt="">
+          </div>
+        </div>
+        <div class="rockDiv">
+          <img src="images/icon-rock.svg" class="img img-rock img-1" id='rock' alt="">
+        </div>
+      </div>
+      <section class="selection" id="second">
+        <div id="selected">
+          <div class="mychoice" id="mychoice">
+
+          </div>
+          <div class="message" id='finalMsg'>
+
+          </div>
+          <div class="botchoice" id="botchoice">
+
+          </div>
+        </div>
+      </section>
+    </section>
+    <div class="rulescard">
+      <div class="rules-heading">
+        <h3>RULES</h3>
+        <button id="close">X</button>
+      </div>
+      <div class="rules-img">
+        <img src="images/image-rules.svg" alt="">
+      </div>
+    </div>
+    <div class="rulesbtn">
+      <button id="rules">
+        rules
+      </button>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.instagram.com/gur.pb07/?hl=en">Gursimran</a>.
+  </div>
+  <script src="script/script.js"></script>
+</body>
+
+</html>
